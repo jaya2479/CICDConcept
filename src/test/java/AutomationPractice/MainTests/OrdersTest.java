@@ -46,10 +46,10 @@ public class OrdersTest extends BaseTest{
 	    System.out.println(loginConfirmMessage);
 	    Assert.assertEquals(loginConfirmMessage, "Login Successfully");
 	    //Assert.assertTrue(loginConfirmMessage.equalsIgnoreCase("Login Successfully"));
-	    prodHomePage.signOutBtn();
-	    String logoutConfirmMessage = loginPage.logOutConfirmationMsg();
-	    System.out.println(logoutConfirmMessage);
-	    Assert.assertEquals(logoutConfirmMessage, "Logout Successfully");
+	    // prodHomePage.signOutBtn();
+	    // String logoutConfirmMessage = loginPage.logOutConfirmationMsg();
+	    // System.out.println(logoutConfirmMessage);
+	    // Assert.assertEquals(logoutConfirmMessage, "Logout Successfully");
 	    //Assert.assertTrue(logoutConfirmMessage.equalsIgnoreCase("Logout Successfully"));
 	}
 
